@@ -22,7 +22,7 @@ repository               : "yanchuzhangUSC/yanchuzhangUSC.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yanchu Zhang 张砚初"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher working on computational mechanics, scientific computing, and data-driven modeling."
@@ -232,6 +232,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 
 # These settings control how pages and collections are included in the site

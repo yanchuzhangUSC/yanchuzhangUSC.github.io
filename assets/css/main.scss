@@ -41,3 +41,37 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Project cards on project list page */
+.project-card {
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  margin-bottom: 0.75rem;
+}
+
+.project-card ul {
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.project-card img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+.project-card a {
+  font-weight: 600;
+}
